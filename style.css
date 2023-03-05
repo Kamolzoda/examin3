@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fafafa;
+}
+.container nav {
+  height: 138px;
+}
+.container nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 40px;
+}
+.container nav img {
+  width: 87px;
+  height: 86px;
+  margin-left: 215px;
+  margin-top: 31px;
+}
+.container nav .li1 {
+  margin-left: 133px;
+  margin-top: 40px;
+}
+.container nav .li2 {
+  margin-left: 82px;
+  margin-top: 40px;
+}
+.container nav .li3 {
+  margin-left: 271px;
+  margin-top: 40px;
+}
+.container nav .li4 {
+  margin-left: 147px;
+  margin-top: 40px;
+}
+@media (max-width: 400px) {
+  .container nav {
+    height: 0;
+  }
+  .container nav ul {
+    display: none;
+  }
+}
+.container .second {
+  display: flex;
+}
+.container .second img {
+  width: 719px;
+  height: 774px;
+}
+.container .second .stol {
+  margin-left: 37px;
+  align-items: center;
+}
+.container .second .stol .p1 {
+  margin-top: 198px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+.container .second .stol h2 {
+  width: 514px;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+}
+.container .second .stol .p2 {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+}
+.container .second .stol button {
+  margin-top: 70px;
+  width: 245px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  background: #a1b29f;
+  color: #f6f6f6;
+  border: 1px solid #a1b29f;
+  cursor: pointer;
+}
+.container .second .stol img {
+  margin-top: 100px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+}
+.container .second .stol .smot {
+  display: flex;
+  align-items: center;
+  margin-left: 350px;
+}
+.container .second .hhr {
+  width: 100%;
+  border: 1px solid black;
+}
+@media (max-width: 400px) {
+  .container .second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container .second img {
+    margin-top: 40px;
+    width: 400px;
+    height: 415.27px;
+  }
+  .container .second .stol {
+    margin: 0;
+    margin-left: 38px;
+  }
+  .container .second .stol .p1 {
+    width: 200px;
+    margin-top: 114px;
+  }
+  .container .second .stol h2 {
+    width: 375px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+  }
+  .container .second .stol button {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .container .second .stol .smot {
+    margin: 0;
+    display: block;
+    margin-top: 77px;
+  }
+  .container .second .stol .smot img {
+    margin: 0;
+    margin-left: 5px;
+  }
+}
+.container .nika h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #57463a;
+  margin-top: 160px;
+  margin-left: 135px;
+}
+.container .nika .pro {
+  margin-top: 100px;
+  margin-left: 185px;
+  display: flex;
+}
+.container .nika .pro p {
+  border-bottom: 3px solid #715b4b;
+  width: 230px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  margin-left: 116px;
+  color: #323232;
+}
+.container .nika .bole h2 {
+  margin-top: 160px;
+  margin-left: 140px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #57463a;
+}
+.container .nika .obwi {
+  margin-top: 100px;
+  margin-left: 140px;
+}
+.container .nika .obwi img {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.container .nika .obwi .door {
+  display: flex;
+}
+.container .nika .obwi .door .s1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+.container .nika .obwi .door p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 102.99%;
+  text-align: center;
+  color: #323232;
+  margin-top: 10px;
+}
+.container .nika .obwi .drawer {
+  display: flex;
+}
+.container .nika .obwi .drawer .s1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+.container .nika .obwi .drawer p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 102.99%;
+  color: #323232;
+  margin-top: 10px;
+}
+@media (max-width: 400px) {
+  .container .nika h3 {
+    margin: 0;
+    width: 208px;
+    font-size: 32px;
+    margin-top: 90px;
+    margin-left: 35px;
+  }
+  .container .nika .pro {
+    display: block;
+    margin: 0;
+  }
+  .container .nika .pro p {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 84px;
+  }
+  .container .nika .bole h2 {
+    width: 240px;
+    margin: 0;
+    margin-top: 90px;
+    margin-left: 35px;
+    font-size: 36px;
+  }
+  .container .nika .obwi {
+    margin: 0;
+  }
+  .container .nika .obwi .door {
+    display: block;
+    margin-left: 38px;
+  }
+  .container .nika .obwi .drawer {
+    display: block;
+    margin-left: 38px;
+  }
+}
+.container .nik {
+  margin-top: 160px;
+}
+.container .nik h4 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #57463a;
+}
+.container .nik img {
+  width: 704px;
+  height: 475px;
+}
+.container .nik .sar {
+  margin-top: 100px;
+  display: flex;
+  background: #ebeeeb;
+}
+.container .nik .sar .sar1 {
+  margin-left: 40px;
+  margin-top: 68px;
+}
+.container .nik .sar .sar1 h1 {
+  width: 450px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+.container .nik .sar .sar1 p {
+  width: 450px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+}
+.container .nik .sar .sar1 button {
+  margin-top: 70px;
+  width: 245px;
+  height: 60px;
+  background: #a1b29f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #f6f6f6;
+  border: 1px solid #a1b29f;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .container .nik h4 {
+    font-size: 32px;
+    width: 300px;
+    margin-left: 35px;
+  }
+  .container .nik .sar {
+    margin: 0;
+    display: block;
+    background-color: #fafafa;
+  }
+  .container .nik .sar img {
+    margin-top: 60px;
+    width: 400px;
+    height: 253px;
+  }
+  .container .nik .sar .sar1 h1 {
+    width: 318px;
+  }
+  .container .nik .sar .sar1 p {
+    width: 318px;
+  }
+}
+.container .pom {
+  margin-left: 140px;
+}
+.container .pom h2 {
+  margin-top: 160px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #57463a;
+}
+.container .pom h3 {
+  margin-top: 200px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #57463a;
+}
+.container .pom .back {
+  width: 1160px;
+  height: 500px;
+  background: #c4c4c4;
+  border: 1px solid black;
+  margin-top: 100px;
+}
+.container .pom .back img {
+  margin-top: 240px;
+  margin-left: 558px;
+}
+@media (max-width: 400px) {
+  .container .pom {
+    margin: 0;
+  }
+  .container .pom h2 {
+    width: 259px;
+    margin: 0;
+    margin-top: 90px;
+    margin-left: 37px;
+  }
+  .container .pom h3 {
+    margin-left: 37px;
+    width: 250px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+  }
+  .container .pom .back {
+    width: 400px;
+    height: 226.29px;
+    margin-top: 60px;
+  }
+  .container .pom .back img {
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 170px;
+  }
+}
+.container .obw {
+  margin-top: 100px;
+}
+.container .obw .mebel {
+  background: #e3dace;
+  display: flex;
+}
+.container .obw .mebel img {
+  width: 720px;
+  height: 536.33px;
+}
+.container .obw .mebel .mebel1 {
+  margin-left: 41px;
+}
+.container .obw .mebel .mebel1 h3 {
+  margin-top: 110px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+.container .obw .mebel .mebel1 p {
+  width: 480px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+}
+.container .obw .mebel .mebel1 button {
+  margin-top: 55px;
+  width: 245px;
+  height: 60px;
+  background: #a1b29f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #f6f6f6;
+  border: 1px solid #a1b29f;
+}
+@media (max-width: 400px) {
+  .container .obw .mebel {
+    display: block;
+  }
+  .container .obw .mebel img {
+    width: 400px;
+    height: 279.34px;
+  }
+  .container .obw .mebel .mebel1 p {
+    width: 294px;
+  }
+}
+.container .oxiron {
+  margin-top: 200px;
+  margin-left: 140px;
+  width: 1160px;
+  height: 590px;
+  border: 7px solid #a1b29f;
+}
+.container .oxiron .garan {
+  margin-left: 13px;
+  margin-top: 13px;
+  width: 1135px;
+  height: 563px;
+  border: 1px solid #715b4b;
+}
+.container .oxiron .garan h3 {
+  width: 550px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  margin-left: 258px;
+  margin-top: 92px;
+  color: #57463a;
+}
+.container .oxiron .garan p {
+  margin-left: 150px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  width: 850px;
+}
+.container .oxiron .garan img {
+  margin-left: 870px;
+  width: 152px;
+  height: 150px;
+}
+@media (max-width: 400px) {
+  .container .oxiron {
+    width: 330px;
+    height: 425px;
+    border: 7px solid #a1b29f;
+    margin: 0;
+    margin-top: 150px;
+    margin-left: 35px;
+  }
+  .container .oxiron .garan {
+    width: 300px;
+    height: 401px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+  .container .oxiron .garan h3 {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 270px;
+    font-size: 20px;
+  }
+  .container .oxiron .garan p {
+    margin: 0;
+    font-size: 16px;
+    width: 266px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .container .oxiron .garan img {
+    margin: 0;
+    width: 69px;
+    height: 68px;
+    margin-left: 200px;
+  }
+}
+.container .end {
+  margin-top: 210px;
+  height: 380px;
+  background: #715b4b;
+  display: flex;
+}
+.container .end .end1 {
+  margin-top: 84px;
+  margin-left: 140px;
+  color: white;
+}
+.container .end .end1 p {
+  margin-top: 9px;
+}
+.container .end .surato {
+  margin-left: 38px;
+}
+.container .end .surato img {
+  background-color: white;
+  margin-left: 18px;
+  margin-top: 84px;
+  width: 52px;
+  height: 52px;
+  border-radius: 35px;
+  border: 1px solid #f6f6f6;
+}
+@media (max-width: 400px) {
+  .container .end {
+    flex-direction: column;
+    width: 375px;
+    height: 773px;
+  }
+  .container .end .end1 {
+    margin: 0;
+    margin-top: 53px;
+    margin-left: 35px;
+  }
+}/*# sourceMappingURL=style.css.map */
