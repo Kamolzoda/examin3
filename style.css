@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 .container {
+  font-family: "Open Sans", sans-serif;
   background-color: #fafafa;
 }
 .container nav {
@@ -36,6 +38,14 @@
 .container nav .li4 {
   margin-left: 147px;
   margin-top: 40px;
+}
+@media (max-width: 1000px) {
+  .container nav {
+    height: 0;
+  }
+  .container nav ul {
+    display: none;
+  }
 }
 @media (max-width: 400px) {
   .container nav {
@@ -103,6 +113,49 @@
   width: 100%;
   border: 1px solid black;
 }
+@media (max-width: 1000px) {
+  .container .second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container .second img {
+    margin-top: 40px;
+    width: 1000px;
+    height: 1015.27px;
+  }
+  .container .second .stol {
+    margin: 0;
+    margin-left: 38px;
+  }
+  .container .second .stol .p1 {
+    font-size: 36px;
+    margin-top: 114px;
+  }
+  .container .second .stol h2 {
+    width: 1000px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+  }
+  .container .second .stol .p2 {
+    font-size: 27px;
+  }
+  .container .second .stol button {
+    margin: 0;
+    margin-top: 40px;
+  }
+  .container .second .stol .smot {
+    margin: 0;
+    display: block;
+    margin-top: 77px;
+  }
+  .container .second .stol .smot img {
+    margin: 0;
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+  }
+}
 @media (max-width: 400px) {
   .container .second {
     display: flex;
@@ -120,12 +173,16 @@
   .container .second .stol .p1 {
     width: 200px;
     margin-top: 114px;
+    font-size: 16px;
   }
   .container .second .stol h2 {
     width: 375px;
     font-weight: 400;
     font-size: 32px;
     line-height: 120%;
+  }
+  .container .second .stol .p2 {
+    font-size: 18px;
   }
   .container .second .stol button {
     margin: 0;
@@ -213,6 +270,27 @@
   color: #323232;
   margin-top: 10px;
 }
+@media (max-width: 1000px) {
+  .container .nika .pro {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .container .nika .pro p {
+    margin: 0;
+    margin-left: 90px;
+    font-size: 20px;
+  }
+  .container .nika .bole h2 {
+    margin: 0;
+    margin-top: 90px;
+    margin-left: 35px;
+    font-size: 36px;
+  }
+  .container .nika .obwi {
+    margin: 0;
+    margin-top: 50px;
+  }
+}
 @media (max-width: 400px) {
   .container .nika h3 {
     margin: 0;
@@ -231,7 +309,7 @@
     margin-left: 84px;
   }
   .container .nika .bole h2 {
-    width: 240px;
+    width: 300px;
     margin: 0;
     margin-top: 90px;
     margin-left: 35px;
@@ -298,6 +376,26 @@
   border: 1px solid #a1b29f;
   cursor: pointer;
 }
+@media (max-width: 1000px) {
+  .container .nik .sar {
+    margin: 0;
+    display: block;
+    background-color: #fafafa;
+  }
+  .container .nik .sar img {
+    margin-top: 60px;
+    width: 1000px;
+    height: 600px;
+  }
+  .container .nik .sar .sar1 h1 {
+    width: 1000px;
+    font-size: 30px;
+  }
+  .container .nik .sar .sar1 p {
+    font-size: 24px;
+    width: 1000px;
+  }
+}
 @media (max-width: 400px) {
   .container .nik h4 {
     font-size: 32px;
@@ -349,12 +447,40 @@
   margin-top: 240px;
   margin-left: 558px;
 }
+@media (max-width: 1000px) {
+  .container .pom {
+    margin: 0;
+  }
+  .container .pom h2 {
+    width: 750px;
+    margin: 0;
+    margin-top: 90px;
+    margin-left: 37px;
+  }
+  .container .pom h3 {
+    margin-left: 37px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+  }
+  .container .pom .back {
+    width: 1000px;
+    height: 450px;
+    margin-top: 60px;
+  }
+  .container .pom .back img {
+    margin: 0;
+    margin-top: 220px;
+    margin-left: 440px;
+  }
+}
 @media (max-width: 400px) {
   .container .pom {
     margin: 0;
   }
   .container .pom h2 {
-    width: 259px;
+    width: 300px;
     margin: 0;
     margin-top: 90px;
     margin-left: 37px;
@@ -416,6 +542,27 @@
   color: #f6f6f6;
   border: 1px solid #a1b29f;
 }
+@media (max-width: 1000px) {
+  .container .obw .mebel {
+    display: block;
+  }
+  .container .obw .mebel img {
+    width: 1000px;
+    height: 570px;
+  }
+  .container .obw .mebel .mebel1 {
+    margin: 0;
+    margin-left: 30px;
+  }
+  .container .obw .mebel .mebel1 h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .container .obw .mebel .mebel1 p {
+    font-size: 22px;
+    width: 980px;
+  }
+}
 @media (max-width: 400px) {
   .container .obw .mebel {
     display: block;
@@ -443,7 +590,7 @@
   border: 1px solid #715b4b;
 }
 .container .oxiron .garan h3 {
-  width: 550px;
+  width: 650px;
   font-weight: 400;
   font-size: 48px;
   line-height: 150%;
@@ -453,7 +600,7 @@
 }
 .container .oxiron .garan p {
   margin-left: 150px;
-  margin-top: 40px;
+  margin-top: 35px;
   font-weight: 300;
   font-size: 24px;
   line-height: 150%;
@@ -463,6 +610,42 @@
   margin-left: 870px;
   width: 152px;
   height: 150px;
+}
+@media (max-width: 1000px) {
+  .container .oxiron {
+    width: 930px;
+    height: 1000px;
+    border: 7px solid #a1b29f;
+    margin: 0;
+    margin-top: 150px;
+    margin-left: 35px;
+  }
+  .container .oxiron .garan {
+    width: 900px;
+    height: 970px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+  .container .oxiron .garan h3 {
+    margin: 0;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+  .container .oxiron .garan p {
+    margin: 0;
+    font-size: 30px;
+    width: 900px;
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+  .container .oxiron .garan img {
+    margin: 0;
+    width: 169px;
+    height: 168px;
+    margin-left: 700px;
+  }
 }
 @media (max-width: 400px) {
   .container .oxiron {
@@ -509,8 +692,11 @@
 }
 .container .end .end1 {
   margin-top: 84px;
-  margin-left: 140px;
+  margin-left: 100px;
   color: white;
+}
+.container .end .end1 .pp {
+  width: 280px;
 }
 .container .end .end1 p {
   margin-top: 9px;
@@ -526,6 +712,27 @@
   height: 52px;
   border-radius: 35px;
   border: 1px solid #f6f6f6;
+}
+@media (max-width: 1000px) {
+  .container .end {
+    width: 1000px;
+    height: 400px;
+  }
+  .container .end .end1 {
+    margin-top: 53px;
+    margin-left: 20px;
+  }
+  .container .end .end1 .pp {
+    width: 280px;
+  }
+  .container .end .surato {
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .container .end .surato img {
+    margin: 0;
+  }
 }
 @media (max-width: 400px) {
   .container .end {
